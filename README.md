@@ -1,6 +1,6 @@
 # ConsoleDumper
 
-A tool to dump console stdin/out/err
+A tool to dump console stdin/out/err.
 
 ## Description
 
@@ -20,3 +20,5 @@ ConsoleDumper includes a simple packet filtering architecture, divided into four
 - IStreamWriter: Write the final generated data packets to the output stdio.
 
 The project comes with some simple examples of implementations of these interfaces. You can choose to use existing implementations or create your own implementations.
+
+There is already s sample of language server jsonrpc protocol viewer, check it in ConsoleDumper.Sample.JsonRpc.
